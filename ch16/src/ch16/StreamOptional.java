@@ -26,7 +26,7 @@ public class StreamOptional {
 		OptionalInt max = Arrays.stream(arr).max();
 		System.out.println("Maximum: "+max.getAsInt());
 		
-		OptionalInt min = Arrays.stream(arr).max();
+		OptionalInt min = Arrays.stream(arr).min();
 		System.out.println("Minimum: "+min.getAsInt());
 		
 		OptionalDouble avg = Arrays.stream(arr).average();
